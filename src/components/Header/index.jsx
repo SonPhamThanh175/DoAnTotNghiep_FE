@@ -1,9 +1,8 @@
+import { CaretDownOutlined, ShoppingCartOutlined, UserOutlined } from "@ant-design/icons";
 import { Col } from "antd";
 import React from "react";
-import {  WrapperCartHeader, WrapperHeader,WrapperHeaderAccount,WrapperTextHeader, WrapperTextHeaderSmall } from "./style";
-import Search from "antd/es/input/Search";
-import { CaretDownOutlined, SearchOutlined, ShoppingCartOutlined, UserOutlined } from "@ant-design/icons";
 import ButtonInputSearch from "../ButtonInputSearch";
+import { WrapperCartHeader, WrapperHeader, WrapperHeaderAccount, WrapperTextHeader, WrapperTextHeaderSmall } from "./style";
 
 function Header(props) {
   return (

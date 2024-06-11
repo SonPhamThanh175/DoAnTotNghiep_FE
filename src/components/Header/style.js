@@ -31,7 +31,7 @@ export const WrapperTextHeaderSmall = styled.span`
 
 export const WrapperCartHeader = styled.div`
     margin-left : 10px ;
-    // display : flex ;
-    // flex-direction : column;
+    display : flex ;
+    flex-direction : column;
 `
 
