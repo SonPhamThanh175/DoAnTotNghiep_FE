@@ -1,4 +1,4 @@
-import { Checkbox, Rate } from "antd";
+import { Checkbox, Col, Rate } from "antd";
 import React from "react";
 import {
     CheckBoxGroup,
@@ -51,7 +51,10 @@ function NavbarComponent(props) {
     }
   };
   return (
-    <div style={{ width: "200px" }}>
+    <Col 
+    // style={{ width: "200px" }}
+      span={6}
+    >
       <WrapperLableText>Danh mục sản phẩm</WrapperLableText>
       <WrapperContent>
         {renderContent("text", ["Tủ lạnh ", "Tivi", "Máy giặt"])}
@@ -78,7 +81,7 @@ function NavbarComponent(props) {
       <WrapperContent>
         {renderContent("price", ["dưới 40", "khoảng 40-100", "trên 100"])}
       </WrapperContent>
-    </div>
+    </Col>
   );
 }
 

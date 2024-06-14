@@ -3,15 +3,16 @@ import PropTypes from 'prop-types'
 import { Button } from 'antd'
 import { SearchOutlined } from '@ant-design/icons'
 
-function ButtonComponent({size,style, textButton,...props}) {
+function ButtonComponent({size,styleButton, styleTextButton ,textButton,...props}) {
   return (
     <Button 
             size={size} 
-            icon={<SearchOutlined />} 
-            style={style}
+            // icon={<SearchOutlined />} 
+            style={styleButton} 
             {...props}
+
         >
-        {textButton}
+          <span style={styleTextButton}>{textButton}</span>
         </Button>
   )
 }

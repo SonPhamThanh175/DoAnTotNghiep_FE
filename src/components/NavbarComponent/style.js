@@ -1,4 +1,3 @@
-import { StarFilled } from "@ant-design/icons";
 import { Checkbox } from "antd";
 import styled from "styled-components";
 
@@ -8,7 +7,7 @@ export const WrapperLableText = styled.h4`
     font-weight: 500;
     justify-content: center;
     align-items: center;
-    
+    width: 100%;
 `
 
 export const WrapperTextValue = styled.span`
@@ -37,4 +36,7 @@ export const WrapperTextPrice = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius:12px;
+    background-color: rgb(255,255,255);
+    padding: 0.25em;
 `
