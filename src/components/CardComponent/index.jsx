@@ -10,12 +10,12 @@ const { Meta } = Card;
 function CardComponent(props) {
   return (
     <WrapperCardStyle
-      hoverable
-      headStyle={{ width: '200px', height: '200px'}}
-      style={{ width: 200 }}
-      bodyStyle={{
-        padding: "10px",
-      }}
+    hoverable
+    styles={{
+      head: { width: '200px', height: '200px' },
+      body: { padding: '10px' },
+    }}
+    style={{ width: 200 }}
       cover={
         <img
           alt="example"
